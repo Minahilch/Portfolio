@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .navbar-nav .nav-item .nav-link {
+            color: white;
+            font-weight: 600;
+        }
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #ffd700;
+        }
+        .portfolio-card {
+            transition: transform 0.2s;
+        }
+        .portfolio-card:hover {
+            transform: scale(1.05);
+        }
+        .contact-form .form-control:focus {
+            border-color: #ffd700;
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+        }
+        .bg-primary-custom {
+            background-color: #007bff;
+        }
+        .btn-primary-custom {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary-custom:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+        .fab {
+            font-size: 25px;
+            color: white;
+        }
+        .fab:hover {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="home" class="jumbotron jumbotron-fluid text-white" style="background-image: url('images/herosection.jpg'); background-size: cover; background-position: center; height: 100vh;">
+        <div class="container text-center" style="margin-top: 20%;">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">Discover my work and projects</p>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio" class="container my-5">
+        <h2 class="text-center mb-4">Portfolio</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card portfolio-card">
+                    <img src="images/project1.jpg" class="card-img-top" alt="Portfolio Item 1">
+                    <div class="card-body">
+                        <h5 class="card-title">FreeCodeCamp Survey Form</h5>
+                        <p class="card-text">I made the survey form by using html and css.</p>
+                        <a href="Projectdetail.html" class="btn btn-primary-custom">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card portfolio-card">
+                    <img src="images/project2.jpg" class="card-img-top" alt="Portfolio Item 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Calender</h5>
+                        <p class="card-text">I made a calender of one year by using html and css.</p>
+                        <a href="Projectdetail.html#calender" class="btn btn-primary-custom">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card portfolio-card">
+                    <img src="images/project3.jpg" class="card-img-top" alt="Portfolio Item 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Virtual Travel Planner Website</h5>
+                        <p class="card-text">I made a Front-end of travel planner website.</p>
+                        <a href="Projectdetail.html#virtual" class="btn btn-primary-custom">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card portfolio-card">
+                    <img src="images/project4.jpg" class="card-img-top" alt="Portfolio Item 4">
+                    <div class="card-body">
+                        <h5 class="card-title">E-commerce Website</h5>
+                        <p class="card-text">I made a Front-end of an e-commerce website.</p>
+                        <a href="Projectdetail.html#e-commerce" class="btn btn-primary-custom">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card portfolio-card">
+                    <img src="images/project5.jpg" class="card-img-top" alt="Portfolio Item 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">I made a portfolio website by using html and css</p>
+                        <a href="Projectdetail.html#portfolio" class="btn btn-primary-custom">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card portfolio-card">
+                    <img src="images/project6.jpg" class="card-img-top" alt="Portfolio Item 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculator</h5>
+                        <p class="card-text">I made a calculator using html,css and Javascript.</p>
+                        <a href="Projectdetail.html#calculator" class="btn btn-primary-custom">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container my-5">
+        <h2 class="text-center mb-4">About Me</h2>
+        <div class="card mx-auto" style="max-width: 800px;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="images/profile pic.jpeg" class="card-img" alt="Profile Picture">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Minahil Ch</h5>
+                        <p class="card-text">Hello! I'm a passionate web developer with a keen interest in creating dynamic and user-friendly websites. My journey into web development started with a curiosity about how websites are built and has grown into a full-fledged career. I enjoy learning new technologies and applying them to solve real-world problems. Whether it's front-end or back-end development, I find joy in crafting seamless web experiences. Connect with me to learn more about my work and interests!</p>
+                        <a href="https://www.linkedin.com/in/minahil-ch-06a879256/" class="btn btn-primary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/Minahilch" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div id="contact" class="container my-5">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name"required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email"required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary-custom">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>Connect with me on social media</p>
+            <a href="https://www.linkedin.com/in/minahil-ch-06a879256/" class="text-white mx-2"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Minahilch" class="text-white mx-2"><i class="fab fa-github"></i></a><br><br>
+            <p>&copy; 2024 Minahilch. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

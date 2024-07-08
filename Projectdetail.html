@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        *{
+            background-color: #227c92;
+        }
+        .project-detail{
+            color: rgb(248, 248, 248);
+            margin: 30px;
+            text-align: justify;
+        }
+        .project-detail p{
+           font-size: 20px;
+           line-height: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div class="project">
+        <div class="project-detail">
+            <h1>FreeCodeCamp Survey Form</h1>
+            <p>The FreeCodeCamp Survey Form project is one of the responsive web design projects in the FreeCodeCamp curriculum. It focuses on teaching learners how to build a responsive form using HTML and CSS, incorporating best practices for accessibility and usability. Here are the key details and goals of this project:</p>
+            <h2>Project Overview</h2><br>
+            <h3>1. Form Elements:</h3><p>The form must include various types of inputs such as text inputs, radio buttons, checkboxes, dropdown menus, and a text area. These elements should be used to collect different types of user information.</p>
+            <h3>2. Form Structure:</h3>
+            <p><b>a. Fieldset</b> and <b>Legend:</b> Use the fieldset and legend elements to group related form controls and provide a caption for the group, improving the form's accessibility.<br>
+            <b>b. Labels:</b> Each form element should have a corresponding label element to improve accessibility and usability. Labels should be properly associated with their respective form controls.</p>
+            <h3>3. Accessibility:</h3>
+            <p><b>a. Semantic HTML:</b> Use appropriate HTML5 elements to ensure the form is semantic and accessible.<br>
+            <b>b. ARIA Roles and Attributes:</b> Where necessary, use ARIA roles and attributes to enhance the accessibility of the form.<br>
+            <h3>4. Responsive Design:</h3>
+            <p><b>a.</b>  The form should be fully responsive, adjusting smoothly to different screen sizes and devices.<br>
+            <b>b.</b> Use CSS media queries to adjust the layout and styling of the form for various screen sizes.<br>
+            <h3>5. Styling:</h3>
+            <p><b>a.</b> Use CSS to style the form and make it visually appealing. This includes adding padding, margins, borders, and other styling properties to enhance the form's appearance.<br>
+            <b>b.</b> Ensure that the form is easy to read and interact with, using sufficient contrast between text and background colors.<br>
+            <h3>6. User Experience:</h3>
+            <p><b>a.</b> the form is user-friendly by providing clear instructions and appropriate input types.<br>
+            <b>b.</b> Use placeholder text to guide users on what information to enter in each input field.<br>
+            <b>c.</b> Add hover and focus effects to form controls to improve the user's interaction experience.<br><br>
+            <h2>Example Form Fields</h2>
+            <p>A typical survey form might include the following fields:<br>
+            <b>1. Name:</b> A text input for the user's name.<br>
+            <b>2. Email:</b> A text input for the user's email address.<br>
+            <b>3. Age:</b> A number input for the user's age.<br>
+            <b>4. Gender:</b> Radio buttons for selecting gender.<br>
+            <b>5. Favorite Feature:</b> Checkboxes for selecting favorite features (e.g., Design, Functionality, Usability).<br>
+            <b>6. Recommendations:</b> A dropdown menu for selecting recommendations (e.g., Yes, No, Maybe).<br>
+            <b>7. Comments:</b> A text area for additional comments or feedback.</p>
+            <h2>Additional Features</h2>
+            <p>To make the form more interactive and functional, you can add JavaScript to validate the form inputs before submission, providing real-time feedback to users.</p>
+            <h2>Testing</h2>
+            <p>Ensure the form meets the project requirements by testing it thoroughly on different devices and browsers. FreeCodeCamp provides a set of tests that can be run to verify that the form meets the specified criteria.</p>
+            <h2>Summery</h2>
+            <p>The FreeCodeCamp Survey Form project is an excellent way to practice building responsive forms using HTML and CSS. By following best practices for accessibility and usability, you can create a form that is both functional and user-friendly. The project helps reinforce concepts such as semantic HTML, responsive design, and form validation, which are essential skills for web development.</p>
+        </div>
+    </div>
+    <div class="project">
+        <div class="project-detail" id="calender">
+            <h1>Calender</h1>
+            <p>Creating a calendar for a specific month using HTML and CSS is a great project to practice your web development skills. This project involves structuring the calendar with HTML and styling it with CSS to make it visually appealing and functional. Here are the key details and goals for this project:</p>
+            <h2>Project Overview</h2><br>
+            <p>The goal of this project is to create a calendar for one specific month using HTML and CSS. The calendar should display the days of the week and the dates of the month, highlighting the current day. It should be fully responsive and look good on various devices and screen sizes.</p>
+            <h2>Key Requirements</h2><br>
+            <h3>1. HTML Structure:</h3>
+            <p><b>a. Table Layout:</b> Use an HTML table tag to structure the calendar. This approach is straightforward and makes it easy to align the days and dates.<br>
+            <b>b. Days of Week:</b>  Include a header row that displays the days of the week (e.g., Sunday, Monday, etc.).<br>
+            <b>b. Dates:</b> Populate the table with the dates of the month, ensuring each date is in the correct cell according to the day of the week it falls on.</p>
+            <h3>2. CSS Styling:</h3>
+            <p><b>a. Table Styling:</b> Use CSS to style the table, including borders, padding, and alignment.<br>
+            <b>b. Current Day Highlight: </b> Add a class to the current day and use CSS to highlight it.<br>
+            <b>c. Responsive Design:  </b> Ensure the calendar adjusts smoothly to different screen sizes using media queries.<br>
+            <b>d. Colors and Fonts  </b> Choose a color scheme and fonts that are easy to read and visually appealing.<br>
+            <h3>4. Responsive Design:</h3>
+            <p><b>a.</b>  The form should be fully responsive, adjusting smoothly to different screen sizes and devices.<br>
+            <b>b.</b> Use CSS media queries to adjust the layout and styling of the form for various screen sizes.<br>
+            <h2>Steps to Create the Calendar</h2><br>
+            <h3>1. Setup HTML Structure:</h3>
+            <p><b>a.</b> Create the basic HTML structure including the html, head, and body tags.<br>
+            <b>b.</b> Add a table tag element with a thead tag for the days of the week and a tbody for the dates.<br></p>
+            <h3>2. Populate Days of the Week:</h3>
+            <p><b>a.</b> Inside the thead, create a tr (table row) and add seven th (table header) elements for the days of the week.<br>
+            <h3>3. Populate Dates:</h3>    
+            <p><b>a.</b> Calculate the first day of the month and determine which day of the week it falls on.<br>
+            <b>b.</b> Create tr elements inside the tbody and add td (table data) elements for each date.<br>
+            <b>c.</b> Add blank td elements for the days before the first date of the month.</p>
+            <h3>4. Highlight the Current Day:</h2>
+            <p><b>a.</b>Use JavaScript or manually add a class to the td tag representing the current day.<br>
+            <h3>5. CSS Styling:</h3>
+            <p><b>a.</b> Style the table with borders, padding, and alignment.<br>
+            <b>b.</b> Highlight the current day using a different background color or border.<br>
+            <b>c.</b> Use media queries to make the calendar responsive.</p><br>
+            <h2>Testing</h2>
+            <p>Test the calendar thoroughly on different devices and browsers to ensure it is fully responsive and works as expected.</p><br>
+            <h2>Summery</h2><br>
+            <p>Creating a calendar for a specific month using HTML and CSS is a great project to practice your web development skills. By following best practices for responsive design and accessibility, you can create a calendar that is both functional and visually appealing. The project helps reinforce concepts such as table structures, responsive design, and CSS styling, which are essential skills for web development.</p>
+        </div>
+        <div class="project-detail" id="virtual">
+            <h1>Virtual Travel Planner</h1>
+            <p>Creating a front-end for a virtual travel planner website is an exciting project that involves designing and developing a user interface for planning trips and vacations. This project focuses on using HTML, CSS, and possibly JavaScript to build a visually appealing and functional website that helps users plan their travels. Here are the key details and goals for this project:</p>
+            <h2>Project Overview</h2><br>
+            <p>The goal of this project is to create a front-end for a virtual travel planner website. The website should allow users to search for destinations, view travel itineraries, and plan their trips with ease. The design should be user-friendly, responsive, and visually engaging to enhance the user experience.</p>
+            <h2>Key Requirements</h2><br>
+            <h3>1. Responsive Design:</h3>
+            <p><b>a.</b> Ensure the website is fully responsive and adjusts seamlessly between different screen sizes (mobile, tablet, desktop).<br>
+            <b>b.</b> Use media queries to handle different screen resolutions and orientations.<br></p>
+            <h3>2. Navigation Bar:</h3>
+            <p><b>a. </b> Include a responsive navigation bar with links to key sections: Home, Destinations, Itineraries, About, Contact.<br>
+            <b>b.</b> Add a logo and a search bar for easy navigation.</p><br>
+            <h3>3. Home Page:</h3>
+            <p><b>a.</b> Design an engaging home page with a hero section that includes a background image or video, a tagline, and a call-to-action button (e.g., "Plan Your Trip").<br>
+            <b>b.</b> Include sections for popular destinations, travel tips, and user testimonials.</p><br>
+            <h3>4.Destination Page</h3>
+            <p><b>a.</b>  Create a page that displays various travel destinations with images, brief descriptions, and links to more detailed pages.<br>
+            <b>b.</b> Use a grid layout to organize the destinations attractively.</p><br>
+            <h3>5. Itineraries Page:</h3>
+            <p><b>a.</b> Allow users to view pre-made travel itineraries for different types of trips (e.g., adventure, relaxation, family).<br>
+            <b>b.</b>Provide detailed information on each itinerary, including activities, accommodations, and maps.<br></p>
+            <h3>6. Contact Page:</h3>
+            <p><b>a.</b> Include a contact form where users can reach out with inquiries or feedback.<br>
+            <b>b.</b> Add contact information such as email, phone number, and social media links.</p><br>
+            <h3>7. Footer:</h3>    
+            <p><b>a.</b> Design a footer with links to important sections, social media icons, and contact information.<br>
+            <b>b.</b> Ensure the footer is consistent across all pages.</p><br>
+            <h2>Testing</h2>
+            <p>Test the website thoroughly on different devices and browsers to ensure it is fully responsive and works as expected.</p><br>
+            <h2>Summery</h2><br>
+            <p>Creating a front-end for a virtual travel planner website involves designing a user-friendly and visually appealing interface that helps users plan their trips. By following best practices for responsive design and accessibility, you can create a website that is both functional and engaging. This project helps reinforce essential web development skills, such as layout design, responsive design, and CSS styling, which are crucial for creating modern websites.</p>
+        </div>
+        <div class="project-detail" id="e-commerce">
+            <h1>E-commerce Website</h1>
+            <h2>Project Overview</h2><br>
+            <p>Creating a front-end for an e-commerce website is an extensive and exciting project that involves designing and developing a user interface for online shopping. This project focuses on using HTML, CSS, and JavaScript, along with possibly utilizing frameworks like Bootstrap, to build a visually appealing, user-friendly, and functional e-commerce website.</p>
+            <h2>Key Requirements</h2><br>
+            <h3>1. Responsive Design:</h3>
+            <p><b>a.</b> Ensure the website is fully responsive and adjusts seamlessly between different screen sizes (mobile, tablet, desktop).<br>
+            <b>b.</b> Use media queries and flexible grid systems (like Bootstrap) to handle various screen resolutions and orientations.<br></p>
+            <h3>2. Navigation Bar:</h3>
+            <p><b>a. </b> Include a responsive navigation bar with links to key sections: Home, Destinations, Itineraries, About, Contact.<br>
+            <b>b.</b> Add a logo and a search bar for easy navigation.</p><br>
+            <h3>3. Home Page:</h3>
+            <p><b>a.</b> Design an engaging home page with a hero section that includes a background image or video, a tagline, and a call-to-action button (e.g., "Plan Your Trip").<br>
+            <b>b.</b> Include sections for popular destinations, travel tips, and user testimonials.</p><br>
+            <h3>4. Product Listing:</h3>
+            <p><b>a.</b> Create a page displaying product listings with filtering and sorting options (e.g., by price, popularity, category).<br>
+                <b>b.</b>Display product cards with images, names, prices, and quick view options.<br>
+                <b>b.</b>Implement pagination for better navigation through large product inventories.</p><br>
+            <h3>5. Product Details:</h3>
+            <p><b>a.</b>  Design a detailed product page that includes high-quality images, product descriptions, pricing, and customer reviews.<br>
+                <b>b.</b> Include an "Add to Cart" button and options to select product variations (e.g., size, color).<br>
+                <b>c.</b> Provide detailed specifications and related products.</p><br>
+            <h3>6. Shopping Cart:</h3>
+            <p><b>a.</b> Develop a shopping cart page where users can view the items they have added.<br>
+            <b>b.</b> Include options to update quantities, remove items, and proceed to checkout.<br>
+            <b>b.</b> Display a summary of the total cost including taxes and shipping fees.</p><br>
+            <h3>7. Footer:</h3>    
+            <p><b>a.</b> Design a footer with links to important sections, social media icons, and contact information.<br>
+            <b>b.</b> Ensure the footer is consistent across all pages.</p><br>
+            <h2>Testing</h2>
+            <p>Test the website thoroughly on different devices and browsers to ensure it is fully responsive and works as expected.</p><br>
+            <h2>Summery</h2><br>
+            <p>Creating a front-end for a E-commerce website involves designing a user-friendly and visually appealing interface that helps users to buy their products. By following best practices for responsive design and accessibility, you can create a website that is both functional and engaging. This project helps reinforce essential web development skills, such as layout design, responsive design, and CSS styling, which are crucial for creating modern websites.</p>
+        </div>
+        <div class="project-detail" id="portfolio">
+            <h1>Portfolio Website</h1>
+            <h2>Project Overview</h2><br>
+            <p>Creating a portfolio website is an essential project for showcasing personal or professional achievements, skills, and projects. The primary goal is to present this information in a visually appealing and organized manner. This project focuses on using HTML and CSS to build a responsive and user-friendly portfolio website.</p>
+            <h2>Key Requirements</h2><br>
+            <h3>1. Responsive Design:</h3>
+            <p><b>a.</b> Ensure the website is fully responsive and adjusts seamlessly between different screen sizes (mobile, tablet, desktop).<br>
+            <b>b.</b> Use media queries to handle different screen resolutions and orientations.<br></p>
+            <h3>2. Navigation Bar:</h3>
+            <p><b>a. </b> Include a responsive navigation bar with links to key sections: Home, Destinations, Itineraries, About, Contact.<br>
+            <b>b.</b> Add a logo and a search bar for easy navigation.</p><br>
+            <h3>3. Home Page:</h3>
+            <p><b>a.</b> Design an engaging home page with a hero section that includes a background image or video, a tagline, and a call-to-action button (e.g., "Plan Your Trip").<br>
+            <b>b.</b> Include sections for popular destinations, travel tips, and user testimonials.</p><br>
+            <h3>4. About Section:</h3>
+            <p><b>a.</b>  A section that provides a brief biography or introduction.<br>
+            <b>b.</b> Highlight personal background, professional experience, and career goals.<br>
+            <b>b.</b> Use a two-column layout to combine text and a profile image.</p><br>
+            <h3>5. Projects Section</h3>
+            <p><b>a.</b> A gallery or grid layout showcasing various projects.<br>
+            <b>b.</b>Each project card should include an image, project title, brief description, and a link to the project details or live demo.<br>
+            <b>b.</b>Ensure the project cards are interactive and responsive.</p><br>
+            <h3>6. Skills Section</h3>
+            <p><b>a.</b> Display a list of technical and professional skills.<br>
+            <b>b.</b>Use visual elements such as progress bars or icons to represent skill levels.<br>
+            <b>b.</b>Organize skills into categories (e.g., programming languages, tools, frameworks).</p><br>
+            <h3>6. Contact Section:</h3>
+            <p><b>a.</b> A contact form for visitors to send messages.<br>
+            <b>b.</b> Include fields for name, email, subject, and message.</p><br>
+            <h3>7. Footer:</h3>    
+            <p><b>a.</b> Design a footer with links to important sections, social media icons, and contact information.<br>
+            <b>b.</b> Ensure the footer is consistent across all pages.</p><br>
+            <h2>Testing</h2>
+            <p>Test the website thoroughly on different devices and browsers to ensure it is fully responsive and works as expected.</p><br>
+            <h2>Summery</h2><br>
+            <p>Creating a front-end for a portfolio website involves designing a user-friendly and visually appealing interface that helps users plan their porfils. By following best practices for responsive design and accessibility, you can create a website that is both functional and engaging. This project helps reinforce essential web development skills, such as layout design, responsive design, and CSS styling, which are crucial for creating modern websites.</p>
+        </div>
+        <div class="project-detail" id="calculator">
+            <h1>Calculator</h1>
+            <h2>Project Overview</h2><br>
+            <p>Creating a calculator is a fundamental project that helps understand the basics of HTML, CSS, and JavaScript. The primary goal is to develop a functional and visually appealing calculator that can perform basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+            <h2>Key Requirements</h2><br>
+            <h3>1. User Interface (UI):</h3>
+            <p><b>a.</b> A clear and intuitive layout.<br>
+            <b>a.</b> Display area to show current input and result.<br>
+            <b>b.</b> Buttons for digits (0-9), operations (+, -, *, /), and additional functionalities like clear (C), delete (←), and equals (=).<br></p>
+            <h3>2. Functionality:</h3>
+            <p><b>a. </b> Responsive button clicks.<br>
+            <b>a. </b> Display update for inputs and results.<br>
+            <b>a. </b> Error handling for invalid operations (e.g., division by zero).<br>
+            <b>b.</b> Support for consecutive operations without needing to press equals every time.</p><br>
+            <h3>3. HTML Structure:</h3>
+            <p><b>a.</b> Define the calculator container.<br>
+            <b>a.</b> Create the display area for showing input and results.<br>
+            <b>b.</b> Add buttons for digits, operations, and functionalities.</p><br>
+            <h3>4. CSS Styling:</h3>
+            <p><b>a.</b>  Style the calculator container for a clean look.<br>
+            <b>a.</b>  Style the display area to differentiate it from buttons.<br>
+            <b>b.</b> Style buttons for a uniform and responsive design.</p><br>
+            <h3>5. JavaScript Functionality:</h3>    
+            <p><b>a.</b> Implement event listeners for button clicks.<br>
+            <b>a.</b> Functions to handle digit and operation inputs.<br>
+            <b>a.</b> Logic for performing calculations and updating the display.<br>
+            <b>b.</b> Error handling for invalid operations.</p><br>
+            <h2>Testing</h2>
+            <p>Test the website thoroughly on different devices and browsers to ensure it is fully responsive and works as expected.</p><br>
+            <h2>Summery</h2><br>
+            <p>Creating a front-end for a  calculator involves designing a user-friendly. By following best practices for responsive design and accessibility, you can create a website that is both functional and engaging. This project helps reinforce essential web development skills, such as layout design, responsive design, and CSS styling, which are crucial for creating modern websites.</p>
+        </div>
+    </div>
+</body>
+</html>
